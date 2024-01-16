@@ -4,14 +4,11 @@ import Footer from "../components/Footer";
 const Landing = () => {
     return (
         <div className="absolute bg-[url('assets/images/image0.jpeg')] w-full h-full bg-cover">
-            <div className="flex justify-center pt-10">
-                <div className="flex flex-col items-center">
-                    <p className="text-5xl font-bold text-purple-700">Cadema</p>
-                </div>
+            <div className="flex flex-col mt-10 ml-10">
+                <p className="text-5xl font-bold text-purple-700">Cadema</p>
             </div>
-
             {/* flex with scroll x axis with 3 product boxes */}
-            <div className="flex items-center overflow-x-scroll scrollbar-hide mt-20">
+            <div className="flex flex-col items-center overflow-x-scroll scrollbar-hide mt-10 mb-20">
                 {/* product box with name and description */}
                 <div className="flex flex-col items-center bg-white rounded-lg p-5 m-2 min-w-[250px]">
                     <p className="text-xl font-bold text-slate-800 text-center">Carbón</p>
