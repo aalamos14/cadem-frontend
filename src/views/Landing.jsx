@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 
 const Landing = () => {
     return (
-        <div className="absolute bg-[url('assets/images/image0.jpeg')] w-full h-full bg-cover">
-            <div className="flex flex-col mt-10 ml-10">
+        <div className="bg-[url('assets/images/image0.jpeg')] w-screen h-screen bg-cover bg-center">
+            <div className="flex flex-col pt-10 ml-10">
                 <p className="text-5xl font-bold text-purple-700">Cadema</p>
             </div>
             {/* flex with scroll x axis with 3 product boxes */}
@@ -26,7 +26,7 @@ const Landing = () => {
                     <p className="text-md text-slate-700 text-center">Cuentanos un poco mas sobre tu proyecto para poder ofrecerte una solucion que se adapte a tus necesidades.</p>
                 </div>
             </div>
-            <div className="absolute bottom-0 w-full">
+            <div className="bottom-0 w-full">
                 <Footer />
             </div>
         </div>
