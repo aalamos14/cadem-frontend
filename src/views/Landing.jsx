@@ -6,7 +6,7 @@ const Landing = () => {
             <div>
                 <div className="flex justify-center pt-10">
                     <div className="flex flex-col items-center">
-                        <p className="text-5xl text-white font-bold text-slate-800">Cadema</p>
+                        <p className="text-5xl font-bold text-purple-700">Cadema</p>
                     </div>
                 </div>
 
