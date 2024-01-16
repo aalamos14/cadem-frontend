@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 
 const Landing = () => {
     return (
-        <div className="bg-[url('assets/images/image0.jpeg')] w-full h-screen bg-cover bg-center">
+        <div className="bg-[url('assets/images/image0.jpeg')] w-full h-screen bg-cover bg-center overflow-hidden">
             <div className="flex justify-center pt-10">
                 <div className="flex flex-col items-center">
                     <p className="text-5xl font-bold text-purple-700">Cadema</p>
